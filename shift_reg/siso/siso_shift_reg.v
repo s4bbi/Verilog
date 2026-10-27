@@ -12,10 +12,7 @@ module siso_shift_reg (
         if (rst)
             shift_reg <= 4'b0000;
         else begin
-            shift_reg[0] <= serial_in;
-            shift_reg[1] <= shift_reg[0];
-            shift_reg[2] <= shift_reg[1];
-            shift_reg[3] <= shift_reg[2];
+            shift_reg <= {shift_reg[2:0], serial_in};
         end
     end
 
