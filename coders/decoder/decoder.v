@@ -1,5 +1,3 @@
-`timescale 1ns / 1ps
-
 module decoder_2to4 (
     input [1:0] in,
     output reg [3:0] out

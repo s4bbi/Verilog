@@ -1,0 +1,154 @@
+$date
+	Mon Nov 09 21:40:10 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module RAM_4x1_tb $end
+$var wire 1 ! read_data $end
+$var reg 2 " address [1:0] $end
+$var reg 1 # read_enable $end
+$var reg 1 $ write_data $end
+$var reg 1 % write_enable $end
+$scope module uut $end
+$var wire 2 & address [1:0] $end
+$var wire 1 # read_enable $end
+$var wire 1 $ write_data $end
+$var wire 1 % write_enable $end
+$var wire 1 ! read_data $end
+$var wire 1 ' RD3 $end
+$var wire 1 ( RD2 $end
+$var wire 1 ) RD1 $end
+$var wire 1 * RD0 $end
+$var wire 1 + D3 $end
+$var wire 1 , D2 $end
+$var wire 1 - D1 $end
+$var wire 1 . D0 $end
+$scope module cell0 $end
+$var wire 1 # read_enable $end
+$var wire 1 $ write_data $end
+$var wire 1 . write_enable $end
+$var wire 1 * read_data $end
+$var reg 1 / memory_bit $end
+$upscope $end
+$scope module cell1 $end
+$var wire 1 # read_enable $end
+$var wire 1 $ write_data $end
+$var wire 1 - write_enable $end
+$var wire 1 ) read_data $end
+$var reg 1 0 memory_bit $end
+$upscope $end
+$scope module cell2 $end
+$var wire 1 # read_enable $end
+$var wire 1 $ write_data $end
+$var wire 1 , write_enable $end
+$var wire 1 ( read_data $end
+$var reg 1 1 memory_bit $end
+$upscope $end
+$scope module cell3 $end
+$var wire 1 # read_enable $end
+$var wire 1 $ write_data $end
+$var wire 1 + write_enable $end
+$var wire 1 ' read_data $end
+$var reg 1 2 memory_bit $end
+$upscope $end
+$scope module decoder $end
+$var wire 2 3 address [1:0] $end
+$var wire 1 % enable $end
+$var reg 1 . D0 $end
+$var reg 1 - D1 $end
+$var reg 1 , D2 $end
+$var reg 1 + D3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 3
+x2
+x1
+x0
+x/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+b0 &
+0%
+0$
+0#
+b0 "
+0!
+$end
+#10000
+1/
+1.
+1%
+1$
+#20000
+00
+1-
+0.
+0$
+b1 "
+b1 &
+b1 3
+#30000
+11
+1,
+0-
+1$
+b10 "
+b10 &
+b10 3
+#40000
+12
+1+
+0,
+b11 "
+b11 &
+b11 3
+#50000
+0+
+0%
+#60000
+1!
+1*
+1(
+1'
+b0 "
+b0 &
+b0 3
+1#
+#70000
+0!
+b1 "
+b1 &
+b1 3
+#80000
+1!
+b10 "
+b10 &
+b10 3
+#90000
+b11 "
+b11 &
+b11 3
+#100000
+0!
+0*
+0(
+0'
+0#
+#110000
